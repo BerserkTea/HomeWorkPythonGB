@@ -8,7 +8,7 @@ a = {randint (-50,50) for _ in range (int(input("Введите длинну п�
 b = {randint (-50,50) for _ in range (int(input("Введите длинну второго множества ")))}
 print(a)
 print(b)
-print (sorted(a.union(b)))
+print (sorted(a.intersection(b)))
 
 
 # import random
